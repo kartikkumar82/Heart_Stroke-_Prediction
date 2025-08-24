@@ -3,7 +3,7 @@
 This project predicts the likelihood of heart stroke disease using Machine Learning algorithms.
 It is deployed with Streamlit to provide an interactive web app for users to input their health details and get predictions instantly.
 
- 📌 Features
+ ## Features
 
 Cleaned and preprocessed medical dataset.
 
@@ -15,7 +15,7 @@ Provides real-time prediction of heart stroke risk.
 
 Easy to use and deploy.
 
-🚀 Tech Stack
+## Tech Stack
 
 Python
 
@@ -25,12 +25,12 @@ Streamlit
 
 Joblib (for saving/loading ML model)
 
-📊 Dataset
+## 📊 Dataset
 
 The dataset used for training and testing the model is from:
 Kaggle - Stroke Prediction Dataset
 
-🛠️ Installation & Setup
+## Installation & Setup
 
 Clone the repository
 
@@ -63,7 +63,7 @@ streamlit run app.py
 
 (Add screenshot here of the prediction output)
 
-📂 Project Structure
+## 📂 Project Structure
 heart-stroke-prediction/
 │── app.py                # Streamlit app
 │── LR_heart.pkl          # Trained ML model
@@ -71,7 +71,7 @@ heart-stroke-prediction/
 │── heart.csv             # Dataset (if included)
 │── README.md             # Documentation
 
-📈 Model Training
+##  Model Training
 
 Data preprocessing (handling missing values, encoding, scaling).
 
@@ -83,14 +83,14 @@ Model evaluation with accuracy, confusion matrix, precision, recall.
 
 Best model saved as LR_heart.pkl using joblib.
 
-🌐 Deployment
+ ##  Deployment
 
 Deployed locally using Streamlit.
 You can also deploy it on:
 
 Streamlit Cloud
 
- Contributing
+ ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
 
